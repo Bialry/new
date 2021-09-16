@@ -1,0 +1,29 @@
+
+Binary@LAPTOP-Binary201102 MINGW64 /d/new
+$ git init
+Initialized empty Git repository in D:/new/.git/
+
+Binary@LAPTOP-Binary201102 MINGW64 /d/new (master)
+$ git add .
+
+Binary@LAPTOP-Binary201102 MINGW64 /d/new (master)
+$ git commit -m "提交文件"
+[master (root-commit) acf4aef] 提交文件
+ 1 file changed, 1 insertion(+)
+ create mode 100644 new test/new.txt
+
+Binary@LAPTOP-Binary201102 MINGW64 /d/new (master)
+$ git remote add origin git@github.com:Bialry/new.git
+
+Binary@LAPTOP-Binary201102 MINGW64 /d/new (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 287 bytes | 287.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:Bialry/new.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Binary@LAPTOP-Binary201102 MINGW64 /d/new (master)
+$
